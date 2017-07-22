@@ -1,0 +1,10 @@
+hadoop使用：
+1.先在idea（我是用的windows）用java编写好程序并使用小数据集成功运行
+2.在项目文件夹下，shift+F10打开cmd，运行mvn clean package
+3.会在target文件夹中生成  .jar 的包
+4.将jar包传到namenode的主机上（不用传到集群上，jar指定的还是本地的jar（大鹏说有个配置就能指定集群上的jar））
+5.确保集群上已有数据集
+6.输入命令 hadoop jar *.jar 包.主类名 输入args 输出
+
+注：*.jar是linux本地的jar包，不是hdfs上的
+例子：hadoop jar /export/servers/data/hadoop_zccTest_ch6-1.0-SNAPSHOT.jar org.hadoop.zccTest.MaxTemperatureDriver /data/1901 /output
