@@ -1,10 +1,10 @@
-hadoopÊ¹ÓÃ£º
-1.ÏÈÔÚidea£¨ÎÒÊÇÓÃµÄwindows£©ÓÃjava±àĞ´ºÃ³ÌĞò²¢Ê¹ÓÃĞ¡Êı¾İ¼¯³É¹¦ÔËĞĞ
-2.ÔÚÏîÄ¿ÎÄ¼ş¼ĞÏÂ£¬shift+F10´ò¿ªcmd£¬ÔËĞĞmvn clean package
-3.»áÔÚtargetÎÄ¼ş¼ĞÖĞÉú³É  .jar µÄ°ü
-4.½«jar°ü´«µ½namenodeµÄÖ÷»úÉÏ£¨²»ÓÃ´«µ½¼¯ÈºÉÏ£¬jarÖ¸¶¨µÄ»¹ÊÇ±¾µØµÄjar£¨´óÅôËµÓĞ¸öÅäÖÃ¾ÍÄÜÖ¸¶¨¼¯ÈºÉÏµÄjar£©£©
-5.È·±£¼¯ÈºÉÏÒÑÓĞÊı¾İ¼¯
-6.ÊäÈëÃüÁî hadoop jar *.jar °ü.Ö÷ÀàÃû ÊäÈëargs Êä³ö
+hadoopä½¿ç”¨ï¼š
+1.å…ˆåœ¨ideaï¼ˆæˆ‘æ˜¯ç”¨çš„windowsï¼‰ç”¨javaç¼–å†™å¥½ç¨‹åºå¹¶ä½¿ç”¨å°æ•°æ®é›†æˆåŠŸè¿è¡Œ
+2.åœ¨é¡¹ç›®æ–‡ä»¶å¤¹ä¸‹ï¼Œshift+F10æ‰“å¼€cmdï¼Œè¿è¡Œmvn clean package
+3.ä¼šåœ¨targetæ–‡ä»¶å¤¹ä¸­ç”Ÿæˆ  .jar çš„åŒ…
+4.å°†jaråŒ…ä¼ åˆ°namenodeçš„ä¸»æœºä¸Šï¼ˆä¸ç”¨ä¼ åˆ°é›†ç¾¤ä¸Šï¼ŒjaræŒ‡å®šçš„è¿˜æ˜¯æœ¬åœ°çš„jarï¼ˆå¤§é¹è¯´æœ‰ä¸ªé…ç½®å°±èƒ½æŒ‡å®šé›†ç¾¤ä¸Šçš„jarï¼‰ï¼‰
+5.ç¡®ä¿é›†ç¾¤ä¸Šå·²æœ‰æ•°æ®é›†
+6.è¾“å…¥å‘½ä»¤ hadoop jar *.jar åŒ….ä¸»ç±»å è¾“å…¥ è¾“å‡º
 
-×¢£º*.jarÊÇlinux±¾µØµÄjar°ü£¬²»ÊÇhdfsÉÏµÄ
-Àı×Ó£ºhadoop jar /export/servers/data/hadoop_zccTest_ch6-1.0-SNAPSHOT.jar org.hadoop.zccTest.MaxTemperatureDriver /data/1901 /output
+æ³¨ï¼š*.jaræ˜¯linuxæœ¬åœ°çš„jaråŒ…ï¼Œä¸æ˜¯hdfsä¸Šçš„
+ä¾‹å­ï¼šhadoop jar /export/servers/data/hadoop_zccTest_ch6-1.0-SNAPSHOT.jar org.hadoop.zccTest.MaxTemperatureDriver /data/1901 /output
